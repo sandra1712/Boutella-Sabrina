@@ -1,0 +1,254 @@
+ 
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+p{
+    font-weight: 300;
+    color: black;
+    
+}
+
+header{
+    background-color: #ffffff;
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    padding: 18px ;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    transition: 0.5s ;
+     
+ 
+}
+
+.logo{
+    color: #d62a5b   ;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    
+}
+.logo span{
+    color:    #f07d7d  ;
+     
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+    
+   
+     
+}
+.navbar li {
+    list-style: none;
+     
+      
+     
+     
+}
+.navbar li :hover{
+    letter-spacing: 0.5px;
+    
+    
+}
+.navbar a{
+    color: #1e4d70  ;
+    text-decoration :none;
+    margin-left: 100px;
+    font-weight: 700;
+    
+}
+
+.btn-connexion{
+    padding: 10px 40px;
+    margin-top: -10px;
+    background:    rgb(255, 173, 173) ;
+    text-transform: uppercase;
+}
+
+.btn-connexion:hover{
+    background:     #f07d7d    ;
+    transition: ease-out;
+}
+
+header.navbar li a:hover{
+    color:   #f07d7d  ;
+    border-bottom: 2px solid   #f07d7d  ;
+}
+
+.banniere{
+    position:relative ;
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image : url("https://www.theladders.com/wp-content/uploads/dog-cat-190709.jpg");
+    background-size : cover ;
+}
+.banniere .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.banniere .contenu h2{
+    color: #ffffff ;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.contenu p:nth-child(2){
+    color: #0f0046 ;
+    font-size: 2em;
+}
+
+.btn1{
+    font-size: 1em;
+    color: #fff;
+    background-color: #C70039 ;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10;
+}
+.btn2{
+    font-size: 1em;
+    color: #fff;
+    background-color: #2A4963;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10;
+}
+
+.btn1:hover{
+    letter-spacing: 4px;
+
+
+}
+
+.btn2:hover{
+    letter-spacing: 4px;
+}
+section{
+     padding: 100px;
+}
+.row{
+     position: relative; 
+     width: 100%;
+     display: flex ;
+     justify-content: space-between;
+}
+.row .col50{
+   position : relative ;
+   width: 48%;
+   justify-content: center; 
+   align-items: center ;
+}
+
+.row .col50 h2 {
+     margin-bottom: 20px;
+}
+.titre-texte{
+color:#000;
+font-size :2em;
+font-weight: 300;
+text-transform:capitalize ;
+
+}
+
+.titre-texte span {
+    color:  #f07d7d  ;
+    font-size: 1.5em;
+    font-weight:700px;
+
+}
+.row .col50 img {
+    height :450px;
+    width : 650px;
+    position: relative; 
+}
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column ;
+}
+.Adoptez-moi {
+    margin-top:-100px ;
+}
+.Adoptez-moi .contenu{
+
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top:40px;
+}
+.Adoptez-moi .contenu .box{
+    width: 300px;
+    margin: 30px;
+    border:40px solid #fff;
+     box-shadow: 20px 15px 35px rgba(0,0,0,0.8); 
+
+}
+.Adoptez-moi .contenu .box .imbox{
+    position: relative;
+    width:100%;
+    height:300px;
+}
+
+.Adoptez-moi  .contenu .box .inbox img {
+    position : relative;
+    top: 0;
+    left:0;
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+.Adoptez-moi .contenu  .box .texte{
+   text-align: center;
+    font-weight:300px  ;
+    color :#111; 
+}
+ 
+
+
+footer {
+	margin: 0;
+	padding: 20px;
+	background-color:  #ffd1bc ;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+footer h3 {
+	color:#2a2c4b;
+}
+footer p {
+	cursor: pointer;
+	color:  rgb(5, 5, 5);
+}
+footer p:hover {
+	color:  #eb6868;
+}
+
+
+
+ 
